@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url('../fontes/RubikMaps-Regular.ttf') format('woff2'); 
+}
+  @font-face {
+    font-family: 'fonte-label';
+    src: url('../fontes/Kanit-SemiBold.ttf') format('woff2');
+}
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,  #2f4f4f, #778899);
+}
+form{
+    margin-left: 38%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: #fff8dc;
+}
+label{
+    font-family: 'fonte-label';
+}
+h2{
+    margin-left: 44%;
+    font-family: 'fonte-titulo';
+    color: chartreuse;
+    margin-top: 5%;
+}
+input{
+    border-radius: 5px;
+}

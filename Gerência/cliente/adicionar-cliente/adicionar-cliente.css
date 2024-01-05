@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'fonte-titulo';
+    src: url('../../fontes/RubikMaps-Regular.ttf') format('woff2'); 
+}
+  @font-face {
+    font-family: 'fonte-label';
+    src: url('../../fontes/Kanit-SemiBold.ttf') format('woff2');
+}
+body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right,  #2f4f4f, #778899);
+}
+#box-titulo{
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'fonte-titulo';
+    color: chartreuse;
+}
+#formulario{
+    position: absolute;
+    left: 40%;
+    border: 2px solid;
+    width: 300px;
+    top: 10%;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-top: 10%;
+    background-color: #fff8dc;
+}
+#mensagem{
+    font-size: 0.8em;
+}
+.visible {
+    display: block;
+}
+label{
+    font-family: 'fonte-label';
+}
+
+#nome{
+    margin-left: 70px;
+    font-size: 0.8em;
+}
+#cpf{
+    margin-left: 70px;
+    font-size: 0.8em;
+}
+#contato{
+    margin-left: 70px;
+    font-size: 0.8em;
+}
+#entrada{
+    margin-left: 70px;
+    font-size: 0.8em;
+}
+
+#button-form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+svg{
+    height: 20px;
+    margin-bottom: 5px;
+}
+#botao-ad-cliente, #botao-con-cliente{
+    width: 13em;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+#botao-ad-produto, #botao-con-produto{
+    width: 13em;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+#box-botoes{
+    display: block;
+    max-width: 20%;
+    margin: 0;
+}
+#box-botoes2{
+    display: block;
+    max-width: 20%;
+    margin: 0;
+}
+#box-produto{
+    display: none;
+    max-width: 80%;
+    padding: 0;
+    position: relative;
+    padding-left: 4px;
+}
+#botao-adicionar{
+    width: 65%;
+    margin-left: 10px;
+}
+#botao-estoque{
+    width: 65%;
+    margin-left: 10px;
+}
+
+#box-cliente{
+    display: none;
+    max-width: 80%;
+    padding: 0;
+    position: relative;
+    padding-left: 4px;
+}
