@@ -1,6 +1,6 @@
 # Bd Gerência 🏦
 
-Este projeto é um exemlo básico de consulta, adição e exclusão de dados. Utilizando MySQL, PHP e Javascript.
+Este projeto é um exemplo básico de consulta, adição e exclusão de dados. Utilizando MySQL, PHP e Javascript.
 
 [Link para o projeto no Github](https://github.com/Huwigor/Gerencia-MySQL.git)
 
